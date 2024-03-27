@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+ html{
+    height: 100%;
+    width: 100%;
+ }   
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+       display: flex;
+       padding: 0 50px;
+       justify-content: space-between; 
+        background-color: #1F2937;   
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover{
+    color: #ffffff97;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    margin-right: 115px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover{
+    color: #ffffff97;
+}
+
+.awesome{
+    background-color: #1F2937; 
+    padding-left: 120px;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.awesome h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    line-height: 0;
+    padding-top: 40px;
+}
+
+.awesome p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 15px;
+    word-wrap: break-word;
+    width: 700px;
+}
+
+.button1{
+    background-color: #3882F6;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: hidden;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover{
+    background-color: #285eb4 ;
+}
+
+.awesomebox{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 700px;
+    height: 300px;
+    background: grey;
+    font-size: 18px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.randominfotop{
+    display:block;
+    text-align: center;
+    font-size: 36px;
+}
+
+.randominfo ul{
+    list-style: none;
+}
+
+.randominfophotos{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.randominfophotos .Photo1{
+    width: 150px;
+    height: 150px;
+    border:5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.randominfophotos .Photo2{
+    width: 150px;
+    height: 150px;
+    border:5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.randominfophotos .Photo3{
+    width: 150px;
+    height: 150px;
+    border:5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.randominfophotos .Photo4{
+    width: 150px;
+    height: 150px;
+    border:5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.infotext{
+    padding-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.text1{
+    width: 180px;
+    color: #445061;
+    
+}
+
+.text2{
+    width: 180px;
+    color: #445061;
+   
+}
+
+.text3{
+    width: 180px;
+    color: #445061;
+    
+}
+
+.text4{
+    width: 180px;
+    color: #445061;
+    
+}
+
+.quote{
+    background-color: #E5E7EB;  
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.quote p{
+    text-align:left;
+    font-weight: light;
+    font-size: 36px;
+    font-style: italic;
+    width: 950px;
+    margin-left: 500px;
+    margin-top: 200px;
+    line-height: 1.2;
+}
+
+.quote .thor{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: end;
+    margin-right: 300px;
+}
+
+.call{
+    padding: 100px;
+}
+
+.time{
+    border: 50px solid #3882F6;
+    border-radius: 10px;
+    background: #3882f6;
+    background-size: 3002px 100px;
+    color: #fff;
+    display: block;
+    padding-left: 200px;
+}
+
+.time p{
+    font-size: 24px;
+}
+
+.button2{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    right: 350px;
+    top:1820px;
+}
+
+.button2:hover{
+    color: #ffffffb6;
+    border: 2px solid #ffffffb6;
+    transition: 0.3s ease;
+}
+
+.copyright{
+    background-color: #1F2937;
+   padding: 30px;
+}
+
+.copyright p{
+    color: #fff;
+    text-align: center;
+}
